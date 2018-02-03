@@ -10,12 +10,20 @@ h1 {
 ul#navi_bar {
 	background-color:		black;
 	text-align:				center;
-	padding:				15px 15px;
 	list-style-type:		none;
 	width:					100%;
-	margin-top:				0px;
+	overflow:				hidden;
+	margin:					0;
 }
 
-li {
-	display:				inline;
+li a.navi_link {
+	display:				block;
+	float:					left;
+	color:					white;
+	padding:				15px 15px;
+	text-decoration:		none;
+}
+
+li a.navi_link:hover {
+	background-color:		#333333;
 }
