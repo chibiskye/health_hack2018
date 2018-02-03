@@ -1,11 +1,21 @@
 body {
-	
+	background-color:		gray;
+	color:					white;
 }
 
 h1 {
-	
+	text-align:				center;
 }
 
-p {
-	
+ul#navi_bar {
+	background-color:		black;
+	text-align:				center;
+	padding:				15px 15px;
+	list-style-type:		none;
+	width:					100%;
+	margin-top:				0px;
+}
+
+li {
+	display:				inline;
 }
