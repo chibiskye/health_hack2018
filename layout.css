@@ -14,7 +14,7 @@ ul#navi_bar {
 	width:					100%;
 	overflow:				hidden;
 	margin:					0px;
-	padding:				0px;
+	padding-left:			30px;
 }
 
 li a.navi_link {
@@ -30,8 +30,23 @@ li a.navi_link:hover {
 	background-color:		#333333;
 }
 
+p {
+	text-indent:			25px;
+	padding:				0px 50px;
+	font-size:				20px;
+}
+
+div#home_abstract {
+	background-color:		pink;
+	border:					5px solid #ff75af;
+	outline:				1px solid white;
+	outline-offset:			5px;
+	margin:					25px 100px;
+}
+
 div#contact_info {
 	padding:				10px 30px;
 	margin:					10px 30px;
 	background-color:		#ff8585;
 }
+
