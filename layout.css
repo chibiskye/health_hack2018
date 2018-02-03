@@ -52,6 +52,10 @@ div#daily_meals {
 	background-color:		#D0F9FA;
 }
 
+div#quizzes {
+	background-color:		white;
+}
+
 div#contact_info {
 	background-color:		#ff8585;
 }
@@ -71,6 +75,12 @@ img#swirly_eyes {
 	animation-duration: 			2s;
 	animation-iteration-count:		infinite;
 	animation-timing-function:		linear;
+}
+
+button.btn_quiz {
+	border-radius:			10px;
+	margin:					5px 25px;
+	padding:				1px 5px;
 }
 
 button#btn_swirly_eyes {
