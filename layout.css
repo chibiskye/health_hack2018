@@ -36,6 +36,11 @@ p.abstract {
 	font-size:				20px;
 }
 
+div {
+	padding:				10px 30px;
+	margin:					10px 30px;
+}
+
 div#home_abstract {
 	background-color:		lightblue;
 	border:					5px solid skyblue;
@@ -45,15 +50,19 @@ div#home_abstract {
 }
 
 div#daily_meals {
-	padding:				10px 30px;
-	margin:					10px 30px;
 	background-color:		#D0F9FA;
-}	
+}
 
 div#contact_info {
-	padding:				10px 30px;
-	margin:					10px 30px;
 	background-color:		#ff8585;
+}
+
+div.facts {
+	width:					35%;
+	background-color:		lightgreen;
+	padding:				5px 20px;
+	margin:					5px 50px;
+	display:				block;
 }
 
 img#swirly_eyes {
