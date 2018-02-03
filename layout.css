@@ -44,6 +44,12 @@ div#home_abstract {
 	margin:					25px 100px;
 }
 
+div#daily_meals {
+	padding:				10px 30px;
+	margin:					10px 30px;
+	background-color:		#D0F9FA;
+}	
+	
 div#contact_info {
 	padding:				10px 30px;
 	margin:					10px 30px;
