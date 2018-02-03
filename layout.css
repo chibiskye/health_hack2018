@@ -42,8 +42,7 @@ div {
 }
 
 div#home_abstract {
-	background-color:		lightblue;
-	border:					5px solid skyblue;
+	border:					5px solid purple;
 	outline:				1px solid white;
 	outline-offset:			5px;
 	margin:					25px 100px;
