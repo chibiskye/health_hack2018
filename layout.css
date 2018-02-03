@@ -30,7 +30,7 @@ li a.navi_link:hover {
 	background-color:		#333333;
 }
 
-p {
+p.abstract {
 	text-indent:			25px;
 	padding:				0px 50px;
 	font-size:				20px;
