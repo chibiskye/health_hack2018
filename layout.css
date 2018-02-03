@@ -37,8 +37,8 @@ p.abstract {
 }
 
 div#home_abstract {
-	background-color:		pink;
-	border:					5px solid #ff75af;
+	background-color:		lightblue;
+	border:					5px solid skyblue;
 	outline:				1px solid white;
 	outline-offset:			5px;
 	margin:					25px 100px;

@@ -7,11 +7,10 @@
 	
 	<script>
 		function stop() {
-		
-			<!-- Figure out how to stop animation when button is clicked
-			// document.getElementById("home_abstract").style.color = "white";
+			<!-- Figure out how to stop animation when button is clicked -->
 			// document.getElementById("swirly_eyes").style.animation-play-state = "paused";
-			//-->
+			document.getElementById("can't_stop").innerHTML =
+				"Oops, sorry. Can't stop spinning. Button's broken. Calling maintenance.";
 		}
 	</script>
 </head>
@@ -41,6 +40,7 @@
 		</p>
 		
 		<img id="swirly_eyes" src="swirly_eyes.png">
+		<div id="can't_stop" style="text-align:center"></div>
 		
 		<button id="btn_swirly_eyes" onclick="stop()">
 		Getting dizzy? Click here to stop spinning.
