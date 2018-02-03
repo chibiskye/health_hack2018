@@ -1,6 +1,6 @@
 body {
-	background-color:		gray;
-	color:					white;
+	background-color:		pink;
+	color:					black;
 }
 
 h1 {
@@ -8,12 +8,13 @@ h1 {
 }
 
 ul#navi_bar {
-	background-color:		black;
+	background-color:		#ff75af;
 	text-align:				center;
 	list-style-type:		none;
 	width:					100%;
 	overflow:				hidden;
-	margin:					0;
+	margin:					0px;
+	padding:				0px;
 }
 
 li a.navi_link {
@@ -22,6 +23,7 @@ li a.navi_link {
 	color:					white;
 	padding:				15px 15px;
 	text-decoration:		none;
+	border-right:			1px solid;
 }
 
 li a.navi_link:hover {
