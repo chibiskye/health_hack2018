@@ -50,3 +50,25 @@ div#contact_info {
 	background-color:		#ff8585;
 }
 
+img#swirly_eyes {
+	display:						block;
+	margin:							auto;
+	animation-name:					rotateImage;
+	animation-duration: 			2s;
+	animation-iteration-count:		infinite;
+	animation-timing-function:		linear;
+}
+
+button#btn_swirly_eyes {
+	margin:					5px auto;
+	display:				block;
+	border-radius:			5px;
+	background-color:		black;
+	color:					white;
+	padding:				3px;
+}
+
+@keyframes rotateImage {
+	from {transform: rotate(0deg)}
+	to {transform: rotate(360deg)}
+}
